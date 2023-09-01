@@ -1,0 +1,393 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Titillium+Web:ital,wght@0,300;0,400;0,700;0,900;1,700&display=swap');
+
+body {
+    font-family: 'Titillium Web', sans-serif;
+}
+
+
+
+/*Header----------------------------------------------------------------------------------------------*/
+
+.up {
+    background-color: #ec3d08;
+    text-align: center;
+    height: 50px;
+}
+
+.up p {
+    font-weight: 100;
+    color: #fff;
+    display: inline;
+}
+
+
+
+.fondo {
+    background-image: url(../img/fondo.png);
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+    margin-top: -22px;
+}
+
+.fondo2 {
+    background-image: url(../img/fondo2.png);
+    width: 100%;
+    height: 150px;
+    margin-top: -22px;
+}
+
+.arriba {
+    margin-top: 20px;
+}
+
+.top img {
+    height: 70px;
+}
+
+.menu li {
+    display: inline-block;
+    font-weight: 700;
+    font-size: 18px;
+}
+
+.menu a {
+    color: #fff;
+    text-decoration: none;
+    margin: 10px;
+}
+
+.menu a:hover {
+    color: #ec3d08;
+    text-decoration: none;
+    margin: 10px;
+}
+
+
+.navbar-toggler {
+    border: none !important;
+}
+
+
+
+.navbar-toggler:focus {
+    box-shadow: none !important;
+}
+
+.navbar-toggler .navbar-toggler-icon {
+    background-image: url(/img/menu.png);
+}
+
+
+.social img {
+    width: 30px;
+    margin: 10px;
+}
+
+
+/*Titulos Generales-------------------------------------------*/
+
+.textos {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: normal;
+    margin: 100px 50px;
+}
+
+
+
+.textos h2 {
+    color: #ffb936;
+    font-size: 42px;
+    font-weight: 900;
+    line-height: 50px;
+    display: inline-block
+}
+
+.textos p {
+    font-size: 18px;
+}
+
+
+
+/*Main Inicio----------------------------------------------------------------------------------------------*/
+
+main {
+    margin-top: 80px;
+}
+
+
+.titulo h1 {
+    color: #ffb936;
+    font-size: 55px;
+    font-weight: 900;
+    line-height: 50px;
+}
+
+
+
+.condimentos {
+    margin: 20px;
+}
+
+.condimentos img {
+    width: 50px;
+    display: inline;
+    margin: 5px;
+
+}
+
+.condimentos p {
+    color: #fff;
+    display: inline-block;
+}
+
+.btn {
+    background-color: #ec3d08;
+    padding: 15px 30px;
+    border-radius: 40px;
+    color: #fff;
+    font-weight: 900;
+    text-decoration: none;
+    text-transform: uppercase;
+    margin-top: 20px;
+}
+
+.btn:hover {
+    background-color: #ffb936;
+}
+
+.btn img {
+    height: 24px;
+}
+
+
+.burger {
+    padding: 10px;
+}
+
+
+/*Tipo inicio----------------------------------------------------------------------------------------------*/
+.tipos {
+    background-color: #fff;
+    padding: 40px 0px;
+}
+
+.tipos h3 {
+    color: #ffb936;
+    font-size: 32px;
+    font-weight: 900;
+    line-height: 50px;
+    text-align: center;
+    margin: 10px 0px 20px 0px;
+}
+
+.card-title {
+    text-align: center;
+}
+
+.card {
+    align-items: center;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.1);
+    border: none;
+}
+
+
+.card-img-top {
+    padding: 10px;
+    margin: 20px 0px;
+}
+
+.card .btn {
+    background-color: #ec3d08;
+    padding: 15px 30px !important;
+    border-radius: 40px !important;
+    color: #fff;
+    font-weight: 700;
+    font-size: 12px;
+    text-decoration: none;
+    text-transform: uppercase;
+    margin: 20px 0px;
+    border: none;
+}
+
+
+.card .btn:hover {
+    background-color: #ffb936;
+}
+
+
+
+
+
+
+
+/*Main Hablemos.................................................................*/
+.hablemos {
+    padding: 50px 20px;
+    background: url(/img/textura.png)repeat, #ffb936;
+}
+
+.hablemos .box1 {
+    justify-items: center;
+    align-content: center;
+}
+
+.hablemos .box2 {
+}
+
+.formulario input {
+    display: inline-block;
+    padding: 10px 5px;
+    margin: 10px 5px;
+    border-radius: 25px;
+    border: none;
+    font-family: 'Titillium Web', sans-serif;
+    font-size: 18px;
+
+}
+
+.formulario #nombre {
+    width: 238px;
+}
+
+.formulario #email {
+    width: 238px;
+}
+
+.formulario #motivo {
+    width: 500px;
+    display: block;
+}
+
+.formulario #texto {
+    width: 500px;
+    height: 180px;
+    display: block;
+    padding: 10px 5px;
+    margin: 10px 5px;
+    border-radius: 25px;
+    border: none;
+    font-family: 'Titillium Web', sans-serif;
+    font-size: 18px;
+
+}
+
+.formulario #btn {
+    background-color: #ec3d08;
+    padding: 15px 30px;
+    border-radius: 40px;
+    color: #fff;
+    font-weight: 900;
+    text-decoration: none;
+    text-transform: uppercase;
+    display: inline-block;
+    margin-top: 20px;
+    border: none;
+
+}
+
+
+
+/*WhatsApp......................................................................*/
+.wsp img {
+    position: fixed;
+    width: 50px;
+    bottom: 50px;
+    right: 50px;
+}
+
+
+
+
+
+
+/*Pie..........................................................................*/
+footer {
+    background: #000;
+    color: #fff;
+    padding: 20px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+footer a {
+    color: #ffb936;
+    text-decoration: none;
+    font-weight: 700;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*Adaptabilidad---------------------------------------------------------------------------------*/
+
+/*Mobile*/
+
+@media (max-width:760px) {
+    main {
+        margin-top: 20px;
+    }
+
+    .burger {
+        order: 1;
+    }
+
+    .titulo {
+        order: 2;
+    }
+
+    .titulo h1 {
+        text-align: center;
+    }
+
+    .up p {
+        font-size: 12px;
+    }
+
+    .textos {
+        margin: 40px 15px;
+    }
+}
+
+
+
+
+/*Tablet-Notebook*/
+
+@media (min-width:760px) and (max-width:1100px) {
+    main {
+        margin-top: 80px;
+    }
+
+    .titulo h1 {
+        font-size: 42px;
+        line-height: 32px;
+    }
+
+    .textos {
+        margin: 80px 35px;
+    }
+}
+
+/*Pc o Smart*/
+
+@media (min-width:1100px) {}
