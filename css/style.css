@@ -199,7 +199,7 @@ main {
 
 .card {
     align-items: center;
-    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.1);
+
     border: none;
 }
 
@@ -245,19 +245,17 @@ main {
     margin: 100px 10px;
 }
 
+
+
+
+
+
 /*Main Hablemos.................................................................*/
 .hablemos {
     padding: 50px 20px;
     background: url(../img/textura.png)repeat, #ffb936;
 }
 
-.hablemos .box1 {
-    justify-items: center;
-    align-content: center;
-}
-
-.hablemos .box2 {
-}
 
 .formulario input {
     display: inline-block;
@@ -270,22 +268,30 @@ main {
 
 }
 
+.formulario ::placeholder {
+   padding-left:8px;
+}
+
+
+.formulario .juntos{
+    display:flex;
+    margin-bottom:-10px;
+}
+
 .formulario #nombre {
-    width: 238px;
+
 }
 
 .formulario #email {
-    width: 238px;
+
 }
 
 .formulario #motivo {
-    width: 500px;
     display: block;
 }
 
 .formulario #texto {
-    width: 500px;
-    height: 180px;
+
     display: block;
     padding: 10px 5px;
     margin: 10px 5px;
@@ -308,6 +314,12 @@ main {
     margin-top: 20px;
     border: none;
 
+}
+
+
+.formulario #btn:hover {
+    background-color: #212529;
+    color: #ffb936
 }
 
 
