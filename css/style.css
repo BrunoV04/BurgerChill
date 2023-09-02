@@ -232,17 +232,18 @@ main {
 
 /*Main Galeria.................................................................*/
 .galeria {
-    display: flex;
-    justify-content: center;
-    align-items: center;
     background: url(/img/textura.png)repeat, #ffb936;
+    padding:50px;
 
 }
 
+.galeria .imagen{
+    margin: 15px 0px;
+}
+
 .galeria .imagen img {
-    width: 400px;
     border-radius: 20px;
-    margin: 100px 10px;
+    object-fit: contain;
 }
 
 
@@ -349,7 +350,15 @@ footer {
 }
 
 footer a {
+    margin-top:10px;
     color: #ffb936;
+    text-decoration: none;
+    font-weight: 700;
+}
+
+footer a:hover {
+    margin-top:10px;
+    color: #ec3d08;
     text-decoration: none;
     font-weight: 700;
 }
