@@ -246,6 +246,14 @@ main {
     object-fit: contain;
 }
 
+.zoom {
+    transition: transform .2s; 
+}
+ 
+.zoom:hover {
+    transform: scale(1.5); 
+}
+
 
 
 
@@ -303,7 +311,7 @@ main {
 
 }
 
-.formulario #btn {
+.formulario .btn {
     background-color: #ec3d08;
     padding: 15px 30px;
     border-radius: 40px;
@@ -318,7 +326,7 @@ main {
 }
 
 
-.formulario #btn:hover {
+.formulario .btn:hover {
     background-color: #212529;
     color: #ffb936
 }
