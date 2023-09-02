@@ -19,6 +19,7 @@ body {
     height: 50px;
 }
 
+
 .up p {
     font-weight: 100;
     color: #fff;
@@ -44,6 +45,10 @@ body {
 
 .arriba {
     margin-top: 20px;
+}
+
+.arriba2 {
+    margin-top:0px;
 }
 
 .top img {
@@ -80,7 +85,7 @@ body {
 }
 
 .navbar-toggler .navbar-toggler-icon {
-    background-image: url(/img/menu.png);
+    background-image: url(../img/menu.png);
 }
 
 
@@ -225,13 +230,25 @@ main {
 
 
 
+/*Main Galeria.................................................................*/
+.galeria {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: url(/img/textura.png)repeat, #ffb936;
 
+}
 
+.galeria .imagen img {
+    width: 400px;
+    border-radius: 20px;
+    margin: 100px 10px;
+}
 
 /*Main Hablemos.................................................................*/
 .hablemos {
     padding: 50px 20px;
-    background: url(/img/textura.png)repeat, #ffb936;
+    background: url(../img/textura.png)repeat, #ffb936;
 }
 
 .hablemos .box1 {
@@ -342,7 +359,8 @@ footer a {
 
 /*Mobile*/
 
-@media (max-width:760px) {
+@media (max-width:350px) and (min-width:759px) {
+
     main {
         margin-top: 20px;
     }
