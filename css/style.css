@@ -136,11 +136,6 @@ main {
 }
 
 
-
-.condimentos {
-    margin: 20px;
-}
-
 .condimentos img {
     width: 50px;
     display: inline;
@@ -181,7 +176,6 @@ main {
 /*Tipo inicio----------------------------------------------------------------------------------------------*/
 .tipos {
     background-color: #fff;
-    padding: 40px 0px;
 }
 
 .tipos h3 {
@@ -199,7 +193,6 @@ main {
 
 .card {
     align-items: center;
-
     border: none;
 }
 
