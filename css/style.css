@@ -176,6 +176,8 @@ main {
 /*Tipo inicio----------------------------------------------------------------------------------------------*/
 .tipos {
     background-color: #fff;
+    padding-top:50px;
+    padding-bottom: 50px;
 }
 
 .tipos h3 {
@@ -194,6 +196,7 @@ main {
 .card {
     align-items: center;
     border: none;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
 }
 
 
@@ -220,6 +223,28 @@ main {
     background-color: #ffb936;
 }
 
+
+/*Main Historia.................................................................*/
+.historia {
+    background: url(/img/textura.png)repeat, #ffb936;
+    padding:20px 100px;
+}
+
+.historia .card{
+    border: none;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+}
+
+
+.historia .card-title{
+    font-size:32px;
+    font-weight: 800;
+    text-align: left;
+}
+
+.historia .imagen-story{
+height:100%;
+}
 
 
 
@@ -385,14 +410,6 @@ footer a:hover {
 
     main {
         margin-top: 20px;
-    }
-
-    .burger {
-        order: 1;
-    }
-
-    .titulo {
-        order: 2;
     }
 
     .titulo h1 {
