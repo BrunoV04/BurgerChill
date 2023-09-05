@@ -48,7 +48,7 @@ body {
 }
 
 .arriba2 {
-    margin-top:0px;
+    margin-top: 0px;
 }
 
 .top img {
@@ -176,7 +176,7 @@ main {
 /*Tipo inicio----------------------------------------------------------------------------------------------*/
 .tipos {
     background-color: #fff;
-    padding-top:50px;
+    padding-top: 50px;
     padding-bottom: 50px;
 }
 
@@ -207,8 +207,8 @@ main {
 
 .card .btn {
     background-color: #ec3d08;
-    padding: 15px 30px !important;
-    border-radius: 40px !important;
+    padding: 15px 30px;
+    border-radius: 40px;
     color: #fff;
     font-weight: 700;
     font-size: 12px;
@@ -227,35 +227,30 @@ main {
 /*Main Historia.................................................................*/
 .historia {
     background: url(../img/textura.png)repeat, #ffb936;
-    padding:20px 100px;
+    padding: 20px 100px;
 }
 
-.historia .card{
+.historia .card {
     border: none;
     box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
 }
 
 
-.historia .card-title{
-    font-size:32px;
+.historia .card-title {
+    font-size: 32px;
     font-weight: 800;
     text-align: left;
 }
-
-.historia .imagen-story{
-
-}
-
 
 
 /*Main Galeria.................................................................*/
 .galeria {
     background: url(../img/textura.png)repeat, #ffb936;
-    padding:50px;
+    padding: 50px;
 
 }
 
-.galeria .imagen{
+.galeria .imagen {
     margin: 15px 0px;
 }
 
@@ -265,11 +260,11 @@ main {
 }
 
 .zoom {
-    transition: transform .2s; 
+    transition: transform .2s;
 }
- 
+
 .zoom:hover {
-    transform: scale(1.5); 
+    transform: scale(1.5);
 }
 
 
@@ -296,21 +291,13 @@ main {
 }
 
 .formulario ::placeholder {
-   padding-left:8px;
+    padding-left: 8px;
 }
 
 
-.formulario .juntos{
-    display:flex;
-    margin-bottom:-10px;
-}
-
-.formulario #nombre {
-
-}
-
-.formulario #email {
-
+.formulario .juntos {
+    display: flex;
+    margin-bottom: -10px;
 }
 
 .formulario #motivo {
@@ -376,14 +363,14 @@ footer {
 }
 
 footer a {
-    margin-top:10px;
+    margin-top: 10px;
     color: #ffb936;
     text-decoration: none;
     font-weight: 700;
 }
 
 footer a:hover {
-    margin-top:10px;
+    margin-top: 10px;
     color: #ec3d08;
     text-decoration: none;
     font-weight: 700;
@@ -406,10 +393,15 @@ footer a:hover {
 
 /*Mobile*/
 
-@media (max-width:759px){
+@media (max-width:759px) {
 
     main {
         margin-top: 20px;
+    }
+
+    .contenido {
+        display: flex;
+        justify-content: center;
     }
 
     .titulo h1 {
@@ -426,16 +418,28 @@ footer a:hover {
         margin: 40px 15px;
     }
 
-    .burger{
+    .burger {
         width: 320px;
-        order:1;
+        order: 1;
     }
 
-  .titulo{
-        order:2;
+    .titulo {
+        order: 2;
     }
-    .condimento{
-        display:none;
+
+    .condimento {
+        display: none;
+    }
+
+    .tipos .btn{
+        font-size:8px;
+        padding: 10px 20px;
+        border-radius: 20px;
+    }
+
+    .historia {
+        background: url(../img/textura.png)repeat, #ffb936;
+        padding: 20px 30px;
     }
 
 }
@@ -445,7 +449,7 @@ footer a:hover {
 
 /*Tablet-Notebook*/
 
-@media (min-width:760px){
+@media (min-width:760px) {
     main {
         margin-top: 80px;
     }
@@ -457,6 +461,10 @@ footer a:hover {
 
     .textos {
         margin: 80px 35px;
+    }
+    .historia {
+        background: url(../img/textura.png)repeat, #ffb936;
+        padding: 20px 40px;
     }
 }
 
