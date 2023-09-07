@@ -145,8 +145,8 @@ main {
 
 .condimentos p {
     color: #fff;
-    display: inline;
-
+    justify-content: center;
+    display:inline-block
 }
 
 .btn {
@@ -228,6 +228,48 @@ main {
     background-color: #ffb936;
 }
 
+/*Main Que comemos?.................................................................*/
+.queComemos {
+    background: url(../img/textura.png)repeat, #ffb936;
+    padding: 20px 30px;
+}
+
+.queComemos .card{
+    margin:10px;
+    display:flex;
+    flex-direction: row;
+}
+
+
+.queComemos .card-img-top{
+   object-fit: contain;
+   width: 350px;
+   padding:20px;
+   display:inline;
+}
+.queComemos .cuerpo{
+display:inline;
+padding:20px;
+}
+
+.queComemos .card-title{
+    font-size:18px;
+    font-weight: 800;
+    color: #ffb936; 
+    text-align: left; 
+}
+
+.queComemos .precio{
+    margin-top:-20px;
+    font-size:28px;
+    font-weight: 800;
+    color: #ec3d08;
+}
+
+.queComemos .btn{
+    margin-top:-10px
+}
+
 
 /*Main Historia.................................................................*/
 .historia {
@@ -246,8 +288,6 @@ main {
     font-weight: 800;
     text-align: left;
 }
-
-
 
 
 /*Main Galeria.................................................................*/
@@ -449,6 +489,21 @@ footer a:hover {
         padding: 20px 30px;
     }
 
+    .queComemos .card{
+        flex-direction: column;
+        margin:5px;
+    }
+
+    .queComemos .cuerpo{
+        padding:5px;
+        }
+
+        .queComemos .card-img-top{
+            width: 200px;
+            padding:5px;
+            margin-bottom:-20px;
+         }
+
 }
 
 
@@ -456,9 +511,9 @@ footer a:hover {
 
 /*Tablet-Notebook*/
 
-@media (min-width:760px) {
+@media (min-width:760px){
     main {
-        margin-top: 80px;
+        margin-top: 30px;
     }
 
     .titulo h1 {
@@ -473,6 +528,20 @@ footer a:hover {
         background: url(../img/textura.png)repeat, #ffb936;
         padding: 20px 40px;
     }
+
+    .queComemos .card{
+        flex-direction: column;
+        margin:5px;
+    }
+
+    .queComemos .cuerpo{
+        padding:8px;
+        }
+        .queComemos .card-img-top{
+            width: 250px;
+            padding:10px;
+            margin-bottom:-10px;
+         }
 }
 
 /*Pc o Smart*/
@@ -486,4 +555,17 @@ footer a:hover {
         font-size: 55px;
         line-height: 50px;
     }
+
+    .queComemos .card{
+        flex-direction: row;
+    }
+
+    .queComemos .cuerpo{
+        padding:20px;
+        }
+
+        .queComemos .card-img-top{
+            width: 350px;
+            padding:20px;
+         }
 }
