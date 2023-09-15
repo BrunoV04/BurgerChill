@@ -8,19 +8,31 @@
   <link href="https://afeld.github.io/emoji-css/emoji.css" rel="stylesheet">
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
-    </script>
+  </script>
   <link rel="stylesheet" href="./css/style.css">
   <title>Burger Chill - Hacemos Burger Smash</title>
 </head>
 
 <body>
+    <!-- Menu Burger Propio-->
+    
+    <div class="menu-burger">
+      <a class="menu-cerrar" href="#"><img src="/img/cerrar.png" alt="" onclick="cerrar()"></a>
+      <a class="logo-burger" href="./index.html"><img src="./img/logo.png" alt="Logo Burger Chill"></a>
+      <li><a href="#">Inicio</a></li>
+      <li><a href="#">Que comemos?</a></li>
+      <li><a href="#">Nuestra Historia</a></li>
+      <li><a href="#">Galeria</a></li>
+      <li><a href="#">Hablemos</a></li>
+</div>
 
   <div class="up">
-    
-      
-      <p><i class="em em-star-struck" aria-role="presentation" aria-label="GRINNING FACE WITH STAR EYES"></i> Con la compra de 3 burger o más <strong>envio gratis</strong> <i
-        class="em em-clap" aria-role="presentation" aria-label="CLAPPING HANDS SIGN"></i></p> 
-   
+
+
+    <p><i class="em em-star-struck" aria-role="presentation" aria-label="GRINNING FACE WITH STAR EYES"></i> Con la
+      compra de 3 burger o más <strong>envio gratis</strong> <i class="em em-clap" aria-role="presentation"
+        aria-label="CLAPPING HANDS SIGN"></i></p>
+
   </div>
   <div class="fondo">
 
@@ -30,10 +42,6 @@
       <div class="container arriba">
         <a class="navbar-brand top" href="./index.html"><img src="./img/logo.png" alt="Logo Burger Chill"></a>
         <nav>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
-            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
           <div class="collapse navbar-collapse" id="navbarNav">
             <ul class="navbar-nav menu mx-auto">
               <li class="nav-item">
@@ -56,14 +64,17 @@
         </nav>
         <div class="social d-none d-lg-block d-xl-block"><a href="#"><img src="./img/instagram.png"
               alt="Instagram"></a><a href="#"><img src="./img/facebook.png" alt="Facebook"></a></div>
+              <a class="menu-icon" href="#"><img src="/img/menu.png" alt="" onclick="mostrar()"></a>
       </div>
+      
     </header>
     <!--Logo / Menu / Redes Sociales-->
+    
 
 
     <main class="container">
       <div class="row contenido">
-        
+
         <div class="col-xs-12 col-md-6 titulo">
           <h1>Nuestras Burger</br> Smasheadas!</h1>
           <div class="row condimento">
@@ -77,7 +88,7 @@
               <img class="img-fluid" src="./img/mayonesa.png" alt="Mayonesa">
               <p>Lorem ipsum dolor sit amet consectetur</br>
                 adipisicing elit.</p>
-              
+
             </div>
 
             <div class="condimentos col-12">
@@ -88,7 +99,7 @@
           </div>
           <a class="btn" href="./html/nuestra-historia.html">Conocenos</a>
         </div>
-      
+
 
         <div class="col-xs-12 col-md-6  align-self-center burger">
           <img class="img-fluid" src="./img/burger1.png" alt="Burger">
@@ -98,51 +109,55 @@
 
   </div>
 
-<div class="container-fluid colorfondo">
-  <div class="container tipos">
-    <div class="row">
+  <div class="container-fluid colorfondo">
+    <div class="container tipos">
+      <div class="row">
 
-      <h3>Especialidad de la casa</h3>
-      <div class="col-6 col-md-3">
-        <div class="card">
-          <img class="card-img-top img-fluid" src="./img/burger2.png" alt="Burger2">
-          <div class="card-body">
-            <h5 class="card-title">Burger Explosion</h5>
-            <a href="#" class="btn btn-primary">Agregar a pedido <i class="em em-drooling_face" aria-role="presentation" aria-label="DROOLING FACE"></i></a>
+        <h3>Especialidad de la casa</h3>
+        <div class="col-6 col-md-3">
+          <div class="card">
+            <img class="card-img-top img-fluid" src="./img/burger2.png" alt="Burger2">
+            <div class="card-body">
+              <h5 class="card-title">Burger Explosion</h5>
+              <a href="#" class="btn btn-primary">Agregar a pedido <i class="em em-drooling_face"
+                  aria-role="presentation" aria-label="DROOLING FACE"></i></a>
+            </div>
           </div>
         </div>
-      </div>
-      <div class="col-6 col-md-3">
-        <div class="card">
-          <img class="card-img-top img-fluid" src="./img/burger3.png" alt="Burger2">
-          <div class="card-body">
-            <h5 class="card-title">Burger Brava</h5>
-            <a href="#" class="btn btn-primary">Agregar a pedido <i class="em em-drooling_face" aria-role="presentation" aria-label="DROOLING FACE"></i></a>
+        <div class="col-6 col-md-3">
+          <div class="card">
+            <img class="card-img-top img-fluid" src="./img/burger3.png" alt="Burger2">
+            <div class="card-body">
+              <h5 class="card-title">Burger Brava</h5>
+              <a href="#" class="btn btn-primary">Agregar a pedido <i class="em em-drooling_face"
+                  aria-role="presentation" aria-label="DROOLING FACE"></i></a>
+            </div>
           </div>
         </div>
-      </div>
 
-      <div class="col-6 col-md-3">
-        <div class="card">
-          <img class="card-img-top img-fluid" src="./img/burger4.png" alt="Burger2">
-          <div class="card-body">
-            <h5 class="card-title">Burger Deluxe</h5>
-            <a href="#" class="btn btn-primary">Agregar a pedido <i class="em em-drooling_face" aria-role="presentation" aria-label="DROOLING FACE"></i></a>
+        <div class="col-6 col-md-3">
+          <div class="card">
+            <img class="card-img-top img-fluid" src="./img/burger4.png" alt="Burger2">
+            <div class="card-body">
+              <h5 class="card-title">Burger Deluxe</h5>
+              <a href="#" class="btn btn-primary">Agregar a pedido <i class="em em-drooling_face"
+                  aria-role="presentation" aria-label="DROOLING FACE"></i></a>
+            </div>
           </div>
         </div>
-      </div>
-      <div class="col-6 col-md-3">
-        <div class="card">
-          <img class="card-img-top img-fluid" src="./img/burger5.png" alt="Burger2">
-          <div class="card-body">
-            <h5 class="card-title">Burger Vikinga</h5>
-            <a href="#" class="btn">Agregar a pedido <i class="em em-drooling_face" aria-role="presentation" aria-label="DROOLING FACE"></i></a>
+        <div class="col-6 col-md-3">
+          <div class="card">
+            <img class="card-img-top img-fluid" src="./img/burger5.png" alt="Burger2">
+            <div class="card-body">
+              <h5 class="card-title">Burger Vikinga</h5>
+              <a href="#" class="btn">Agregar a pedido <i class="em em-drooling_face" aria-role="presentation"
+                  aria-label="DROOLING FACE"></i></a>
+            </div>
           </div>
         </div>
       </div>
     </div>
   </div>
-</div>
 
 
 
@@ -161,6 +176,7 @@
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
     crossorigin="anonymous"></script>
+    <script src="boton.js"></script>
 </body>
 
 </html>
