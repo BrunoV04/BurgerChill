@@ -52,23 +52,18 @@ body {
   font-weight: 700;
   font-size: 18px;
 }
-
-.menu a {
+.menu li a {
   color: #fff;
   text-decoration: none;
   margin: 10px;
 }
-
-.menu a:hover {
+.menu li a:hover {
   color: #ec3d08;
-  text-decoration: none;
-  margin: 10px;
 }
 
 .navbar-toggler {
   border: none !important;
 }
-
 .navbar-toggler:focus {
   box-shadow: none !important;
 }
@@ -107,23 +102,18 @@ body {
   align-content: center;
   background-color: #ec3d08;
 }
-
 .menu-burger li {
   font-weight: 700;
   font-size: 42px;
   list-style: none;
 }
-
-.menu-burger a {
+.menu-burger li a {
   color: #fff;
   text-decoration: none;
   margin: 10px;
 }
-
-.menu-burger a:hover {
+.menu-burger li a:hover {
   color: #ffb936;
-  text-decoration: none;
-  margin: 10px;
 }
 
 /*Titulos Generales-------------------------------------------*/
@@ -134,7 +124,6 @@ body {
   align-items: normal;
   margin: 100px 50px;
 }
-
 .textos h2 {
   color: #ffb936;
   font-size: 42px;
@@ -142,7 +131,6 @@ body {
   line-height: 50px;
   display: inline-block;
 }
-
 .textos p {
   font-size: 18px;
 }
@@ -164,7 +152,6 @@ main {
   display: inline;
   margin: 5px;
 }
-
 .condimentos p {
   color: #fff;
   justify-content: center;
@@ -181,11 +168,9 @@ main {
   text-transform: uppercase;
   margin-top: 20px;
 }
-
 .btn:hover {
   background-color: #ffb936;
 }
-
 .btn img {
   height: 24px;
 }
@@ -203,7 +188,6 @@ main {
   padding-top: 50px;
   padding-bottom: 50px;
 }
-
 .tipos h3 {
   color: #ffb936;
   font-size: 32px;
@@ -222,12 +206,6 @@ main {
   border: none;
   box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
 }
-
-.card-img-top {
-  padding: 10px;
-  margin: 20px 0px;
-}
-
 .card .btn {
   background-color: #ec3d08;
   padding: 15px 30px;
@@ -240,9 +218,13 @@ main {
   margin: 20px 0px;
   border: none;
 }
-
 .card .btn:hover {
   background-color: #ffb936;
+}
+
+.card-img-top {
+  padding: 10px;
+  margin: 20px 0px;
 }
 
 /*Main Que comemos?.................................................................*/
@@ -250,39 +232,33 @@ main {
   background: url(../img/textura.png) repeat, #ffb936;
   padding: 20px 30px;
 }
-
 .queComemos .card {
   margin: 10px;
   display: flex;
   flex-direction: row;
 }
-
 .queComemos .card-img-top {
   object-fit: contain;
   width: 350px;
   padding: 20px;
   display: inline;
 }
-
 .queComemos .cuerpo {
   display: inline;
   padding: 20px;
 }
-
 .queComemos .card-title {
   font-size: 18px;
   font-weight: 800;
   color: #ffb936;
   text-align: left;
 }
-
 .queComemos .precio {
   margin-top: -20px;
   font-size: 28px;
   font-weight: 800;
   color: #ec3d08;
 }
-
 .queComemos .btn {
   margin-top: -10px;
 }
@@ -292,12 +268,10 @@ main {
   background: url(../img/textura.png) repeat, #ffb936;
   padding: 20px 100px;
 }
-
 .historia .card {
   border: none;
   box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
 }
-
 .historia .card-title {
   font-size: 32px;
   font-weight: 800;
@@ -309,11 +283,9 @@ main {
   background: url(../img/textura.png) repeat, #ffb936;
   padding: 50px;
 }
-
 .galeria .imagen {
   margin: 15px 0px;
 }
-
 .galeria .imagen img {
   border-radius: 20px;
   object-fit: contain;
@@ -322,7 +294,6 @@ main {
 .zoom {
   transition: transform 0.2s;
 }
-
 .zoom:hover {
   transform: scale(1.5);
 }
@@ -379,7 +350,6 @@ main {
   margin-top: 20px;
   border: none;
 }
-
 .formulario .btn:hover {
   background-color: #212529;
   color: #ffb936;
@@ -415,7 +385,6 @@ footer a:hover {
   text-decoration: none;
 }
 
-/*Adaptabilidad---------------------------------------------------------------------------------*/
 /*Mobile*/
 @media (max-width: 759px) {
   main {
