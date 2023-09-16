@@ -44,7 +44,7 @@ body {
 }
 
 .arriba {
-    margin-top: 20px;
+    margin-top:8px;
 }
 
 .arriba2 {
@@ -452,7 +452,7 @@ main {
 footer {
     background: #000;
     color: #fff;
-    padding: 20px;
+    padding: 40px 30px 30px 30px;
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -464,6 +464,7 @@ footer a {
     color: #ffb936;
     text-decoration: none;
     font-weight: 700;
+
 }
 
 footer a:hover {
@@ -522,6 +523,10 @@ footer a:hover {
 
     .titulo {
         order: 2;
+        display:flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
     }
 
     .condimento {
