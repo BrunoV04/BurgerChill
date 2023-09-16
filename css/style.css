@@ -330,13 +330,11 @@ main {
     box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
 }
 
-
 .historia .card-title {
     font-size: 32px;
     font-weight: 800;
     text-align: left;
 }
-
 
 /*Main Galeria.................................................................*/
 .galeria {
