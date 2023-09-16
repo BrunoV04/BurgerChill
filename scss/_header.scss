@@ -1,0 +1,140 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Titillium+Web:ital,wght@0,300;0,400;0,700;0,900;1,700&display=swap');
+
+body {
+    font-family: 'Titillium Web', sans-serif;
+}
+
+
+
+/*Header----------------------------------------------------------------------------------------------*/
+
+.up {
+    background-color: #ec3d08;
+    text-align: center;
+    height: 50px;
+
+    p {
+        font-weight: 100;
+        color: #fff;
+        display: inline;
+    }
+}
+
+.fondo {
+    background-image: url(../img/fondo.png);
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+    margin-top: -22px;
+}
+
+.fondo2 {
+    background-image: url(../img/fondo2.png);
+    width: 100%;
+    height: 150px;
+    margin-top: -22px;
+}
+
+.arriba {
+    margin-top: 8px;
+}
+
+.arriba2 {
+    margin-top: 0px;
+}
+
+.top img {
+    height: 70px;
+}
+
+.menu li {
+    display: inline-block;
+    font-weight: 700;
+    font-size: 18px;
+}
+
+.menu a {
+    color: #fff;
+    text-decoration: none;
+    margin: 10px;
+}
+
+.menu a:hover {
+    color: #ec3d08;
+    text-decoration: none;
+    margin: 10px;
+}
+
+
+.navbar-toggler {
+    border: none !important;
+}
+
+
+
+.navbar-toggler:focus {
+    box-shadow: none !important;
+}
+
+.menu-icon img {
+    width: 60px;
+    height: 100%;
+    padding: 10px;
+    display: none;
+}
+
+
+
+
+.social img {
+    width: 30px;
+    margin: 10px;
+}
+
+
+/*Menu Burger Propio------------------------------------------*/
+.logo-burger img {
+    width: 60px;
+}
+
+.menu-cerrar img {
+    width: 30px;
+    position: absolute;
+    top: 26px;
+    left: 26px;
+}
+
+.menu-burger {
+    width: 100%;
+    height: 100vh;
+    z-index: 1;
+    position: absolute;
+    display: none;
+    justify-items: center;
+    align-content: center;
+    background-color: #ec3d08;
+
+}
+
+.menu-burger li {
+    font-weight: 700;
+    font-size: 42px;
+    list-style: none;
+}
+
+.menu-burger a {
+    color: #fff;
+    text-decoration: none;
+    margin: 10px;
+}
+
+.menu-burger a:hover {
+    color: #ffb936;
+    text-decoration: none;
+    margin: 10px;
+}

@@ -1,0 +1,261 @@
+/*Main Inicio----------------------------------------------------------------------------------------------*/
+
+main {
+    margin-top: 80px;
+}
+
+
+.titulo h1 {
+    color: #ffb936;
+    font-size: 55px;
+    font-weight: 900;
+    line-height: 50px;
+}
+
+
+.condimentos img {
+    width: 50px;
+    display: inline;
+    margin: 5px;
+
+}
+
+.condimentos p {
+    color: #fff;
+    justify-content: center;
+    display: inline-block
+}
+
+.btn {
+    background-color: #ec3d08;
+    padding: 15px 30px;
+    border-radius: 40px;
+    color: #fff;
+    font-weight: 900;
+    text-decoration: none;
+    text-transform: uppercase;
+    margin-top: 20px;
+}
+
+.btn:hover {
+    background-color: #ffb936;
+}
+
+.btn img {
+    height: 24px;
+}
+
+
+.burger {
+    padding: 10px;
+}
+
+
+/*Tipo inicio----------------------------------------------------------------------------------------------*/
+.colorfondo {
+    background: url(../img/textura2.png)repeat, #fafafa;
+
+}
+
+.tipos {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.tipos h3 {
+    color: #ffb936;
+    font-size: 32px;
+    font-weight: 900;
+    line-height: 50px;
+    text-align: center;
+    margin: 10px 0px 20px 0px;
+}
+
+.card-title {
+    text-align: center;
+}
+
+.card {
+    align-items: center;
+    border: none;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+}
+
+
+.card-img-top {
+    padding: 10px;
+    margin: 20px 0px;
+}
+
+.card .btn {
+    background-color: #ec3d08;
+    padding: 15px 30px;
+    border-radius: 40px;
+    color: #fff;
+    font-weight: 700;
+    font-size: 12px;
+    text-decoration: none;
+    text-transform: uppercase;
+    margin: 20px 0px;
+    border: none;
+}
+
+
+.card .btn:hover {
+    background-color: #ffb936;
+}
+
+/*Main Que comemos?.................................................................*/
+.queComemos {
+    background: url(../img/textura.png)repeat, #ffb936;
+    padding: 20px 30px;
+}
+
+.queComemos .card {
+    margin: 10px;
+    display: flex;
+    flex-direction: row;
+}
+
+
+.queComemos .card-img-top {
+    object-fit: contain;
+    width: 350px;
+    padding: 20px;
+    display: inline;
+}
+
+.queComemos .cuerpo {
+    display: inline;
+    padding: 20px;
+}
+
+.queComemos .card-title {
+    font-size: 18px;
+    font-weight: 800;
+    color: #ffb936;
+    text-align: left;
+}
+
+.queComemos .precio {
+    margin-top: -20px;
+    font-size: 28px;
+    font-weight: 800;
+    color: #ec3d08;
+}
+
+.queComemos .btn {
+    margin-top: -10px
+}
+
+
+/*Main Historia.................................................................*/
+.historia {
+    background: url(../img/textura.png)repeat, #ffb936;
+    padding: 20px 100px;
+}
+
+.historia .card {
+    border: none;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+}
+
+.historia .card-title {
+    font-size: 32px;
+    font-weight: 800;
+    text-align: left;
+}
+
+/*Main Galeria.................................................................*/
+.galeria {
+    background: url(../img/textura.png)repeat, #ffb936;
+    padding: 50px;
+
+}
+
+.galeria .imagen {
+    margin: 15px 0px;
+}
+
+.galeria .imagen img {
+    border-radius: 20px;
+    object-fit: contain;
+}
+
+.zoom {
+    transition: transform .2s;
+}
+
+.zoom:hover {
+    transform: scale(1.5);
+}
+
+
+
+
+
+
+/*Main Hablemos.................................................................*/
+.hablemos {
+    margin-top: -6px;
+    padding: 50px 20px;
+    background: url(../img/textura.png)repeat, #ffb936;
+}
+
+
+.formulario input {
+    display: inline-block;
+    padding: 10px 5px;
+    margin: 10px 5px;
+    border-radius: 25px;
+    border: none;
+    font-family: 'Titillium Web', sans-serif;
+    font-size: 18px;
+
+}
+
+.formulario ::placeholder {
+    padding-left: 8px;
+}
+
+
+.formulario .juntos {
+    display: flex;
+    margin-bottom: -10px;
+}
+
+.formulario #motivo {
+    display: block;
+}
+
+.formulario #texto {
+
+    display: block;
+    padding: 10px 5px;
+    margin: 10px 5px;
+    border-radius: 25px;
+    border: none;
+    font-family: 'Titillium Web', sans-serif;
+    font-size: 18px;
+
+}
+
+.formulario .btn {
+    background-color: #ec3d08;
+    padding: 15px 30px;
+    border-radius: 40px;
+    color: #fff;
+    font-weight: 900;
+    text-decoration: none;
+    text-transform: uppercase;
+    display: inline-block;
+    margin-top: 20px;
+    border: none;
+
+}
+
+
+.formulario .btn:hover {
+    background-color: #212529;
+    color: #ffb936
+}

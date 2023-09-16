@@ -1,0 +1,23 @@
+/*Titulos Generales-------------------------------------------*/
+
+.textos {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: normal;
+    margin: 100px 50px;
+}
+
+
+
+.textos h2 {
+    color: #ffb936;
+    font-size: 42px;
+    font-weight: 900;
+    line-height: 50px;
+    display: inline-block
+}
+
+.textos p {
+    font-size: 18px;
+}

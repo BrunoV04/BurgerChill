@@ -1,0 +1,24 @@
+/*Pie..........................................................................*/
+footer {
+    background: #000;
+    color: #fff;
+    padding: 40px 30px 30px 30px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+    a {
+        margin-top: 10px;
+        color: #ffb936;
+        text-decoration: none;
+        font-weight: 700;
+
+        &:hover {
+            margin-top: 10px;
+            color: #ec3d08;
+            text-decoration: none;
+        }
+
+    }
+
+}
