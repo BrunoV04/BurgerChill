@@ -14,7 +14,7 @@ body {
 /*Header----------------------------------------------------------------------------------------------*/
 
 .up {
-    background-color: #ec3d08;
+    background-color: $colorSecundario;
     text-align: center;
     height: 50px;
 
@@ -63,7 +63,7 @@ body {
         margin: 10px;
 
         &:hover {
-            color: #ec3d08;
+            color: $colorSecundario;
         }
     }
 }
@@ -115,7 +115,7 @@ body {
     display: none;
     justify-items: center;
     align-content: center;
-    background-color: #ec3d08;
+    background-color: $colorSecundario;
 
     li {
         font-weight: 700;
@@ -128,7 +128,7 @@ body {
             margin: 10px;
 
             &:hover {
-                color: #ffb936;
+                color: $colorPrincipal;
             }
         }
     }

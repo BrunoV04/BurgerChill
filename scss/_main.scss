@@ -6,7 +6,7 @@ main {
 
 
 .titulo h1 {
-    color: #ffb936;
+    color: $colorPrincipal;
     font-size: 55px;
     font-weight: 900;
     line-height: 50px;
@@ -30,7 +30,7 @@ main {
 
 
 .btn {
-    background-color: #ec3d08;
+    background-color: $colorSecundario;
     padding: 15px 30px;
     border-radius: 40px;
     color: #fff;
@@ -40,7 +40,7 @@ main {
     margin-top: 20px;
 
     &:hover {
-        background-color: #ffb936;
+        background-color: $colorPrincipal;
     }
 
     img {
@@ -64,7 +64,7 @@ main {
     padding-bottom: 50px;
 
     h3 {
-        color: #ffb936;
+        color: $colorPrincipal;
         font-size: 32px;
         font-weight: 900;
         line-height: 50px;
@@ -80,10 +80,10 @@ main {
 .card {
     align-items: center;
     border: none;
-    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+    box-shadow: $sombras;
 
     .btn {
-        background-color: #ec3d08;
+        background-color: $colorSecundario;
         padding: 15px 30px;
         border-radius: 40px;
         color: #fff;
@@ -95,7 +95,7 @@ main {
         border: none;
 
         &:hover {
-            background-color: #ffb936;
+            background-color: $colorPrincipal;
         }
     }
 }
@@ -107,13 +107,14 @@ main {
 
 /*Main Que comemos?.................................................................*/
 .queComemos {
-    background: url(../img/textura.png)repeat, #ffb936;
+    background: url(../img/textura.png)repeat, $colorPrincipal;
     padding: 20px 30px;
 
     .card {
         margin: 10px;
         display: flex;
         flex-direction: row;
+        box-shadow: $sombras;
     }
 
     .card-img-top {
@@ -131,7 +132,7 @@ main {
     .card-title {
         font-size: 18px;
         font-weight: 800;
-        color: #ffb936;
+        color: $colorPrincipal;
         text-align: left;
     }
 
@@ -139,7 +140,7 @@ main {
         margin-top: -20px;
         font-size: 28px;
         font-weight: 800;
-        color: #ec3d08;
+        color: $colorSecundario;
     }
 
     .btn {
@@ -151,12 +152,12 @@ main {
 
 /*Main Historia.................................................................*/
 .historia {
-    background: url(../img/textura.png)repeat, #ffb936;
+    background: url(../img/textura.png)repeat, $colorPrincipal;
     padding: 20px 100px;
 
     .card {
         border: none;
-        box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+        box-shadow: $sombras;
     }
 
     .card-title {
@@ -168,7 +169,7 @@ main {
 
 /*Main Galeria.................................................................*/
 .galeria {
-    background: url(../img/textura.png)repeat, #ffb936;
+    background: url(../img/textura.png)repeat, $colorPrincipal;
     padding: 50px;
 
     .imagen {
@@ -198,7 +199,7 @@ main {
 .hablemos {
     margin-top: -6px;
     padding: 50px 20px;
-    background: url(../img/textura.png)repeat, #ffb936;
+    background: url(../img/textura.png)repeat, $colorPrincipal;
 }
 
 
@@ -240,7 +241,7 @@ main {
 }
 
 .formulario .btn {
-    background-color: #ec3d08;
+    background-color: $colorSecundario;
     padding: 15px 30px;
     border-radius: 40px;
     color: #fff;
@@ -253,7 +254,7 @@ main {
 
     &:hover {
         background-color: #212529;
-        color: #ffb936
+        color: $colorPrincipal
     }
 
 }
