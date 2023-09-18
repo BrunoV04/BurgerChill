@@ -1,0 +1,5 @@
+@mixin botonesRedondeados($color,$espacios,$bordes){
+    background-color: $color;
+    padding: $espacios;
+    border-radius: $bordes;
+}

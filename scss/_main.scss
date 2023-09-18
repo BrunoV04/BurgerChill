@@ -30,9 +30,7 @@ main {
 
 
 .btn {
-    background-color: $colorSecundario;
-    padding: 15px 30px;
-    border-radius: 40px;
+    @include botonesRedondeados($colorSecundario,15px 30px,40px);
     color: #fff;
     font-weight: 900;
     text-decoration: none;
@@ -83,9 +81,7 @@ main {
     box-shadow: $sombras;
 
     .btn {
-        background-color: $colorSecundario;
-        padding: 15px 30px;
-        border-radius: 40px;
+        @include botonesRedondeados($colorSecundario,15px 30px,40px);
         color: #fff;
         font-weight: 700;
         font-size: 12px;
@@ -241,9 +237,7 @@ main {
 }
 
 .formulario .btn {
-    background-color: $colorSecundario;
-    padding: 15px 30px;
-    border-radius: 40px;
+    @include botonesRedondeados($colorSecundario,15px 30px, 40px);
     color: #fff;
     font-weight: 900;
     text-decoration: none;
