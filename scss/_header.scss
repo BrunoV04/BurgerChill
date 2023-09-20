@@ -64,6 +64,7 @@ body {
 
         &:hover {
             color: $colorSecundario;
+            transition:all 1s;
         }
     }
 }
@@ -129,6 +130,7 @@ body {
 
             &:hover {
                 color: $colorPrincipal;
+                transition:all 1s;
             }
         }
     }
